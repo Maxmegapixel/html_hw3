@@ -25,18 +25,48 @@ button {
   font-family: "Inter", sans-serif;
 }
 
-h1 {
+.homelink {
+  font-weight: 600;
+  font-size: 14px;
+  color: #f25822;
+}
+
+.container {
+  max-width: 1174px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 39px 0;
+  margin-bottom: 84px;
+}
+
+.navigation a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.main {}
+
+.mainContent {}
+
+.mainContent h1 {
   font-weight: 700;
   font-size: 60px;
   line-height: 120%;
 }
 
-p {
+.mainContent p {
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
   color: #888;
 }
+
+.mainContent__leftSide {}
+
+.mainContent_leftSide-btnList{}
 
 .btn {
   border-radius: 56px;
@@ -50,30 +80,11 @@ p {
   color: #fff;
 }
 
-.navigation {
-  font-weight: 400;
-  font-size: 14px;
-  color: #000;
-}
-
-.homelink {
-  font-weight: 600;
-  font-size: 14px;
-  color: #f25822;
-}
-
-.container {
-  max-width: 1174px;
-  margin: 0 auto;
-}
-
 .nearBtn {
   font-weight: 600;
   font-size: 16px;
   color: #aaa;
 }
 
-.header {
-  padding: 39px 0;
-  margin-bottom: 84px;
-}
+.footer {}
+
