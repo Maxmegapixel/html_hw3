@@ -37,7 +37,7 @@ button {
 }
 
 .header {
-  padding: 39px 0;
+  padding: 40px 0;
   margin-bottom: 84px;
 }
 
@@ -47,28 +47,32 @@ button {
   color: #000;
 }
 
-.main {}
+.main {
+  margin-bottom: 100px;
+}
 
 .mainContent {}
 
-.mainContent h1 {
+.mainContent__leftSide {}
+
+.mainContent__leftSide h1 {
   font-weight: 700;
   font-size: 60px;
   line-height: 120%;
+  margin-bottom: 20px;
 }
 
-.mainContent p {
+.mainContent__leftSide p {
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
   color: #888;
+  margin-bottom: 32px;
 }
 
-.mainContent__leftSide {}
+.mainContent_leftSide-btnList {}
 
-.mainContent_leftSide-btnList{}
-
-.btn {
+.mainContent_leftSide-btnList button {
   border-radius: 56px;
   padding: 16px 10px;
   width: 140px;
@@ -78,7 +82,10 @@ button {
   font-weight: 600;
   font-size: 16px;
   color: #fff;
+  cursor: pointer;
 }
+
+.btn {}
 
 .nearBtn {
   font-weight: 600;
@@ -86,5 +93,13 @@ button {
   color: #aaa;
 }
 
-.footer {}
+.footer {
+  padding: 100px;
 
+}
+
+.logos {}
+
+.dropdown {
+  
+}
