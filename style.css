@@ -38,9 +38,11 @@ button {
 }
 
 .navigation {
+  width: 577px;
+  height: 37px;
   display: flex;
-  justify-content: flex-end;
-  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .imglogo {
@@ -50,8 +52,8 @@ button {
 
 .str {
   display: flex;
-  flex-direction: row;
-  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sec_hed {
@@ -78,10 +80,14 @@ button {
 
 .mainContent {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
-.mainContent__leftSide {}
+.mainContent__leftSide {
+  width: 556px;
+  height: 375px;
+}
 
 .mainContent__leftSide h1 {
   font-weight: 700;
@@ -118,23 +124,18 @@ button {
   cursor: pointer;
 }
 
-.btn {}
-
 .nearBtn {
   font-weight: 600;
   font-size: 16px;
   color: #aaa;
 }
 
-.footer {
+.section_log {
   padding: 100px;
+  margin-bottom: 100px;
 }
 
 .logos {
   display: flex;
   justify-content: space-between;
-}
-
-.dropdown {
-  
 }
