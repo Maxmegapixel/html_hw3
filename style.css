@@ -25,11 +25,10 @@ button {
   font-family: "Inter", sans-serif;
 }
 
-
-
 .container {
   max-width: 1174px;
   margin: 0 auto;
+  
 }
 
 .header {
@@ -132,10 +131,145 @@ button {
 
 .section_log {
   padding: 100px;
-  margin-bottom: 100px;
 }
 
 .logos {
   display: flex;
   justify-content: space-between;
 }
+
+.three_el {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+.three_el a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000;
+}
+
+.three_el p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #666;
+}
+
+.three_el h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.mainContent_2bw {
+  width: 310px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainContent_2centr {
+  padding: 40px 34px;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  background: #fff;
+}
+
+.section_4 {
+  background: #fafafa;
+  padding: 100px;
+}
+
+.head_4 {
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.head_4 h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+
+.head_4 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #888;
+  width: 740px;
+}
+
+.content_4_3el {
+
+  width: 378px;
+  height: 555px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_s4 {
+  width: 378px;
+  height: 284px;
+  margin-bottom: 32px;
+}
+
+.content_4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_4 h2 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.content_4 p {
+  padding: 0px 34px 34px 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #666;
+}
+
+.content_4 button {
+  border-radius: 56px;
+  padding: 16px 32px;
+  width: 166px;
+  height: 51px;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn_s4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content_4_3el_2 {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  background: #fff;
+}
+
+
