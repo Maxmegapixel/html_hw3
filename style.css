@@ -76,7 +76,10 @@ button {
   margin-bottom: 100px;
 }
 
-.mainContent {}
+.mainContent {
+  display: flex;
+  gap: 30px;
+}
 
 .mainContent__leftSide {}
 
@@ -95,7 +98,11 @@ button {
   margin-bottom: 32px;
 }
 
-.mainContent_leftSide-btnList {}
+.mainContent_leftSide-btnList {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
 
 .mainContent_leftSide-btnList button {
   border-radius: 56px;
@@ -123,7 +130,10 @@ button {
   padding: 100px;
 }
 
-.logos {}
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
 
 .dropdown {
   
